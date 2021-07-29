@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #23272a;
+}
+
+#signup-header {
+  display: flex;
+  background-color: #2c2f33;
+  color: #ffffff;
+  justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+  height: 50px;
+}
+
+main {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  position: fixed;
+  top: 25%;
+  /* left: 50%; */
+  margin-top: -50px;
+  /* margin-left: -100px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#signupforum {
+  width: 480px;
+  height: 570px;
+  background-color: #2c2f33;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+#forumheader {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+.inputs {
+  width: 410px;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  color: #ffffff;
+  background-color: #23272a;
+  border: none;
+  border-radius: 5px;
+}
+#tosanage {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#haveacc {
+  color: #7289da;
+  margin-left: 30px;
+}
+
+#createbtn {
+  background-color: #7289da;
+  color: #ffffff;
+  border: none;
+  width: 410px;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+#createbtn:hover {
+  cursor: pointer;
+}
